@@ -1,7 +1,26 @@
 body {
-    background: gray;
+    background: black;
 }
 
 h1#title {
-    color: pink;
+    color: rgb(255, 0, 242);
+    text-align: center;
+    font-size: 500%
+}
+
+h2#title-sub {
+    color: rgb(0, 195, 255);
+    text-align: center;
+}
+
+img.headerimg{
+    height:150px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 45px;
+}
+
+div#banner{
+    border-style: dotted;
+    border-color:rgb(0, 255, 0);
 }

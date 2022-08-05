@@ -1,0 +1,9 @@
+{
+  "posts": [
+    {
+      "title": "Testing Title",
+      "body": "Today I heard a crazy person tell me their phase 1 project was not complicated.",
+      "id": 1
+    }
+  ]
+}

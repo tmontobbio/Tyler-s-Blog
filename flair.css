@@ -68,7 +68,7 @@ img#beavis {
   height: 200px;
 }
 
-.input-text {
+#input-text {
   border-radius: 10px;
   height: 2rem;
   width: 25%;

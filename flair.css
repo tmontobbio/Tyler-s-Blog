@@ -1,56 +1,100 @@
 div#wrapper {
-    margin: 150px auto;
-    position: relative;
-    width: 1000px;
-    height: 1500px;
-    border: 3px solid rgb(163, 68, 158);
-    background-color: rgb(0, 0, 0);
-    text-align: center;
-  }
-  
+  margin: 150px auto;
+  position: relative;
+  width: 1000px;
+  height: 1500px;
+  border: 3px solid rgb(163, 68, 158);
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+}
+
 div#div1 {
-    position: absolute;
-    width:inherit;
-    height: 200px;
-    background-color: rgb(0, 0, 0);
-  }
+  position: absolute;
+  width: inherit;
+  height: 200px;
+  background-color: rgb(0, 0, 0);
+}
 
-div.child {
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.411);
-    width:95%;
-    height: 1250px;
-    top: 215px;
-    left: 25px;
-    
-  }
+#blog-container {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.411);
+  width: 95%;
+  height: 1250px;
+  top: 215px;
+  left: 25px;
+}
 
-div#line{
-    position: absolute;
-    border: 2px solid rgb(163, 68, 158);
-    width:99.8%;
-    bottom: 8px;
-  }
+#form-container {
+  padding: 1rem;
+  width: stretch;
+  height: auto;
+  display: none;
+  background: #000000;
+  opacity: 0.8;
+}
 
-h1#title{
-    text-align: center;
-    color:rgb(1, 179, 192);
-    font-size: 400%;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-  }
+div#line {
+  position: absolute;
+  border: 2px solid rgb(163, 68, 158);
+  width: 99.8%;
+  bottom: 8px;
+}
 
-img#cat{
-    position: relative;
-    padding: 20px 20px 20px 20px;
-    height:150px;
-    width: auto;
-    float: right;
-  }
+h1#title {
+  text-align: center;
+  color: rgb(1, 179, 192);
+  font-size: 55px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
 
-img#beavis{
-    position: relative;
-    padding: 20px 20px 20px 20px;
-    height:150px;
-    width: auto;
-    float: left;
-  }
+img#cat {
+  position: relative;
+  padding: 20px 20px 20px 20px;
+  height: 150px;
+  width: auto;
+  float: right;
+}
+
+img#beavis {
+  position: relative;
+  padding: 20px 20px 20px 20px;
+  height: 150px;
+  width: auto;
+  float: left;
+}
+
+#text-box {
+  width: 500px;
+  height: 500px;
+}
+
+.input-text {
+  border-radius: 10px;
+  height: 2rem;
+  width: 25%;
+  font-size: 18px;
+  font-family: "Comic Sans MS", "Comic Sans", monospace;
+  margin: 3px;
+  border: 2px solid rgb(163, 68, 158);
+}
+
+.click:hover {
+  background-color: whitesmoke;
+  border: 2px rgb(163, 68, 158);
+  color: #e04b52;
+}
+
+.blog-post {
+  color: white;
+  display: block;
+}
+
+.blog-title {
+  color: rgb(163, 68, 158);
+  text-align: left;
+}
+
+.blog-body {
+  color: rgb(163, 68, 158);
+  text-align: left;
+}

@@ -3,7 +3,7 @@
   <head>
     <script src="index.js"></script>
     <link rel="stylesheet" href="flair.css"/>
-    <title>Tyler's Mancave uwu</title>
+    <title>Tyler's Code Blog!</title>
     <style>
       body {
         background-image: url('img/background.jpg');
@@ -16,12 +16,40 @@
       <div id="div1">
           <img src="img/keycat.gif" id="cat"  onclick=diffImage(this)>
           <img src="img/beavishack.webp" id="beavis" alt="beavis" onclick=diffImageTwo(this)>
-            <a href="index.html">
-             <h1 id="title">Tyler's Lair</h1>
-            </a>
-            <div id="line"></div>
-            </div>
-        <div class="child">
+          <a href="index.html">
+            <h1 id="title">Tyler's Code Blog!</h1>
+          </a>
+       <div id="line"></div>
+      </div>
+      <div id="blog-container">
+        <button id="new-post-btn" class="click" type="click">New Post!</button>
+        <div id="form-container">
+            <form id="new-post-form">
+              <input
+            type="text"
+            name="title"
+            value=""
+            placeholder="Enter title..."
+            class="input-text"
+          />
+          <br />
+          <textarea
+            type="text"
+            name="body"
+            value=""
+            placeholder="Body content..."
+            id="text-box"
+          ></textarea>
+          <br />
+          <input
+            type="submit"
+            name="submit"
+            value="Submit Post"
+            class="submit"
+            id="submit-post"
+          />
+            </form>
+        </div>
       </div>
     </div>
   </body>

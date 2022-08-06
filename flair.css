@@ -85,8 +85,10 @@ img#beavis {
 }
 
 .blog-post {
-  color: white;
+  color: rgb(0, 0, 0);
+  padding: 10px, 10px, 10px, 10px;
   display: block;
+  border: 2px rgb(163, 68, 158);
 }
 
 .blog-title {

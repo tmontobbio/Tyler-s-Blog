@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function fetchPosts() {
-    fetch(" http://localhost:3000/posts")
+    fetch("https://storage.cloud.google.com/ttobbio-api/db.json")
       .then((res) => res.json())
       .then((data) => data.forEach((data) => generatePost(data)));
   }
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
       title: textTitle.value, // cant get this to work
       body: textBody.value,
     };
-    fetch(`http://localhost:3000/posts`, {
+    fetch(`https://storage.cloud.google.com/ttobbio-api/db.json`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
